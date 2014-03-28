@@ -1,11 +1,43 @@
 EESchema Schematic File Version 2
-LIBS:transistors
-LIBS:m_cramps
+LIBS:power
 LIBS:w_connectors
 LIBS:w_device
-LIBS:RMC
-LIBS:power
 LIBS:w_logic
+LIBS:m_cramps
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:RMC
+LIBS:arduino_shieldsNCL
+LIBS:opendous
+LIBS:beaglebone
+LIBS:beagleboneblack
 LIBS:CRAMPS-cache
 EELAYER 27 0
 EELAYER END
@@ -13,13 +45,13 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 2 5
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "25 mar 2014"
+Date "28 mar 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
 Comment2 "Derived from RAMPS-FD by Bob Cousins"
 Comment3 "Copyright 2014 GPL v3"
-Comment4 "CRAMPS by Charles Steinkuehler"
+Comment4 "CRAMPS by Charles Steinkuehler and Murray Lindeblom"
 $EndDescr
 Wire Wire Line
 	2700 1250 2700 1300
