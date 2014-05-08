@@ -45,7 +45,11 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 5
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
+<<<<<<< HEAD
 Date "1 may 2014"
+=======
+Date "2 may 2014"
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -87,6 +91,8 @@ F 0 "M102" H 5250 7700 60  0000 C CNN
 F 1 "LOGO_OSHW" H 5250 7450 60  0000 C CNN
 F 2 "OSHW_logo_2" H 5150 7600 60  0000 C CNN
 F 3 "" H 5250 7550 60  0001 C CNN
+F 4 "N/A" H 5250 7550 60  0001 C CNN "Mfg"
+F 5 "Part of PCB" H 5250 7550 60  0001 C CNN "PartNo"
 	1    5250 7550
 	1    0    0    -1  
 $EndComp
@@ -168,7 +174,7 @@ L LED LD101
 U 1 1 50FC24D8
 P 7150 5100
 F 0 "LD101" V 7075 5100 50  0000 C CNN
-F 1 "LED GRN" V 7245 5100 50  0000 C CNN
+F 1 "Green" V 7245 5100 50  0000 C CNN
 F 2 "" H 7150 5100 60  0001 C CNN
 F 3 "" H 7150 5100 60  0001 C CNN
 F 4 "Osram" H 5500 6650 60  0001 C CNN "Mfg"
@@ -184,6 +190,8 @@ F 0 "M101" H 4350 7700 60  0000 C CNN
 F 1 "PCB_GREEN_RMC" H 4350 7450 60  0000 C CNN
 F 2 "" H 4350 7550 60  0000 C CNN
 F 3 "" H 4350 7550 60  0000 C CNN
+F 4 "N/A" H 4350 7550 60  0001 C CNN "Mfg"
+F 5 "Part of PCB" H 4350 7550 60  0001 C CNN "PartNo"
 	1    4350 7550
 	1    0    0    -1  
 $EndComp
@@ -264,7 +272,7 @@ L SW_PUSH SW102
 U 1 1 52EECC28
 P 9250 5700
 F 0 "SW102" H 9250 5850 50  0000 C CNN
-F 1 "RESET" H 9250 5620 50  0000 C CNN
+F 1 "SW_PUSH" H 9250 5620 50  0001 C CNN
 F 2 "" H 9250 5700 60  0001 C CNN
 F 3 "" H 9250 5700 60  0001 C CNN
 F 4 "TE" H 5500 8550 60  0001 C CNN "Mfg"
@@ -290,8 +298,8 @@ Text GLabel 4550 5300 2    50   UnSpc ~ 0
 ADC_VDD
 Text GLabel 4550 5400 2    50   UnSpc ~ 0
 ADC_GND
-Text Notes 1550 4550 2    50   ~ 0
-BeagleBone\nserial header\npass-through
+Text Notes 1800 4000 0    50   ~ 0
+BeagleBone serial\nconsole pass-through\nheader
 Text Notes 5050 4900 0    50   ~ 0
 SCL1 UART1_TX
 Text Notes 5050 5000 0    50   ~ 0
@@ -362,10 +370,8 @@ NoConn ~ 3350 3000
 NoConn ~ 3350 3100
 NoConn ~ 3350 3200
 NoConn ~ 4550 1900
-Text Notes 600  1050 0    60   ~ 0
-Alternate stacking BeagleBone Headers:\nMajorLeague SSHQ-123-D-08-GT-LF\nSamtec SSQ-123-03-T-D (Tin)\nSamtec SSQ-123-03-G-D (Gold)\n\nOr use plain pin headers if you do not\n require additional expansion capes
-Text Notes 600  1850 0    60   ~ 0
-To save money on all the pin headers\nwhen buying parts for a few boards,\nyou can get large breakaway headers\ninstead of the individual parts.  You\nwill need a total of:\n\n57 pins of single-row header\n74 pins of dual-row header\n\nWhich you can get using\n(2) Harwin M20-9993645 36-pin single-row header\n(2) Harwin M20-9983645 72-pin dual-row header\n
+Text Notes 600  1700 0    60   ~ 0
+To save money on all the pin headers\nwhen buying parts for a few boards,\nyou can get large breakaway headers\ninstead of the individual parts.  You\nwill need a total of:\n\n18 pins of single-row header\n82 pins of dual-row header\n\nWhich you can get using\n(1) Harwin M20-9993645 36-pin single-row header\n(2) Harwin M20-9983645 72-pin dual-row header\n\nIf you want to use standard pin headers instead\nof the latching KK headers for the stepper and\nESTOP headers, you need another 32 pins of\nsingle-row header
 Text GLabel 4550 5100 2    50   Output ~ 0
 SPI_CS0
 NoConn ~ 4550 2000
@@ -373,13 +379,15 @@ NoConn ~ 4550 2100
 NoConn ~ 3350 2100
 NoConn ~ 3350 2200
 $Comp
-L HEADER_2 P104
+L HEADER_2 P103
 U 1 1 532B2BE3
 P 9650 5700
-F 0 "P104" H 9700 5850 60  0000 C CNN
-F 1 "Reset" H 9700 5550 60  0000 C CNN
+F 0 "P103" H 9700 5850 60  0000 C CNN
+F 1 "HEADER_2" H 9700 5550 60  0001 C CNN
 F 2 "" H 9650 5700 60  0000 C CNN
 F 3 "" H 9650 5700 60  0000 C CNN
+F 4 "Harwin" H 9650 5700 60  0001 C CNN "Mfg"
+F 5 "M20-9990245" H 9650 5700 60  0001 C CNN "PartNo"
 	1    9650 5700
 	1    0    0    -1  
 $EndComp
@@ -457,7 +465,7 @@ L SW_PUSH SW101
 U 1 1 532B2D4D
 P 9250 4900
 F 0 "SW101" H 9250 5050 50  0000 C CNN
-F 1 "POWER" H 9250 4820 50  0000 C CNN
+F 1 "SW_PUSH" H 9250 4820 50  0001 C CNN
 F 2 "" H 9250 4900 60  0001 C CNN
 F 3 "" H 9250 4900 60  0001 C CNN
 F 4 "TE" H 5500 7750 60  0001 C CNN "Mfg"
@@ -466,13 +474,15 @@ F 5 "FSM2JH" H 5500 7750 60  0001 C CNN "PartNo"
 	0    1    1    0   
 $EndComp
 $Comp
-L HEADER_2 P103
+L HEADER_2 P102
 U 1 1 532B2D53
 P 9650 4900
-F 0 "P103" H 9700 5050 60  0000 C CNN
-F 1 "Power" H 9700 4750 60  0000 C CNN
+F 0 "P102" H 9700 5050 60  0000 C CNN
+F 1 "HEADER_2" H 9700 4750 60  0001 C CNN
 F 2 "" H 9650 4900 60  0000 C CNN
 F 3 "" H 9650 4900 60  0000 C CNN
+F 4 "Harwin" H 9650 4900 60  0001 C CNN "Mfg"
+F 5 "M20-9990245" H 9650 4900 60  0001 C CNN "PartNo"
 	1    9650 4900
 	1    0    0    -1  
 $EndComp
@@ -498,6 +508,10 @@ F 0 "R101" V 7100 4800 50  0000 C CNN
 F 1 "330R" V 7220 4800 50  0000 C CNN
 F 2 "" H 7150 4800 60  0000 C CNN
 F 3 "" H 7150 4800 60  0000 C CNN
+F 4 "Stackpole" H 6450 5350 60  0001 C CNN "Mfg"
+F 5 "RMCF0603FT330R" H 6450 5350 60  0001 C CNN "PartNo"
+F 6 "KOA" H 6450 5350 60  0001 C CNN "AltMfg"
+F 7 "RK73H1JTTD3300F" H 6450 5350 60  0001 C CNN "AltPartNo"
 	1    7150 4800
 	1    0    0    -1  
 $EndComp
@@ -515,6 +529,8 @@ F 0 "Q101" H 7400 5600 70  0000 C CNN
 F 1 "2N7002" H 7400 5500 60  0000 C CNN
 F 2 "" H 7100 5550 60  0000 C CNN
 F 3 "" H 7100 5550 60  0000 C CNN
+F 4 "Diodes Inc." H 7100 5550 60  0001 C CNN "Mfg"
+F 5 "2N7002K-7" H 7100 5550 60  0001 C CNN "PartNo"
 	1    7100 5550
 	1    0    0    -1  
 $EndComp
@@ -538,7 +554,7 @@ L LED LD102
 U 1 1 532B490E
 P 8100 5100
 F 0 "LD102" V 8025 5100 50  0000 C CNN
-F 1 "LED GRN" V 8195 5100 50  0000 C CNN
+F 1 "Green" V 8195 5100 50  0000 C CNN
 F 2 "" H 8100 5100 60  0001 C CNN
 F 3 "" H 8100 5100 60  0001 C CNN
 F 4 "Osram" H 6450 6650 60  0001 C CNN "Mfg"
@@ -554,6 +570,10 @@ F 0 "R102" V 8050 4800 50  0000 C CNN
 F 1 "330R" V 8170 4800 50  0000 C CNN
 F 2 "" H 8100 4800 60  0000 C CNN
 F 3 "" H 8100 4800 60  0000 C CNN
+F 4 "Stackpole" H 6450 5350 60  0001 C CNN "Mfg"
+F 5 "RMCF0603FT330R" H 6450 5350 60  0001 C CNN "PartNo"
+F 6 "KOA" H 6450 5350 60  0001 C CNN "AltMfg"
+F 7 "RK73H1JTTD3300F" H 6450 5350 60  0001 C CNN "AltPartNo"
 	1    8100 4800
 	1    0    0    -1  
 $EndComp
@@ -564,9 +584,11 @@ L BB_EXP_CONN_P8 P8
 U 1 1 533029B2
 P 3950 2100
 F 0 "P8" H 3945 3355 60  0000 C CNN
-F 1 "BB_EXP_CONN_P8" H 3950 885 60  0000 C CNN
-F 2 "~" H 3600 900 60  0000 C CNN
-F 3 "~" H 3600 900 60  0000 C CNN
+F 1 "BB_EXP_CONN" H 3950 885 60  0001 C CNN
+F 2 "" H 3600 900 60  0000 C CNN
+F 3 "" H 3600 900 60  0000 C CNN
+F 4 "Major League" H 3950 2100 60  0001 C CNN "Mfg"
+F 5 "TSHC-123-D-06-240-GT-LF" H 3950 2100 60  0001 C CNN "PartNo"
 	1    3950 2100
 	1    0    0    -1  
 $EndComp
@@ -575,23 +597,27 @@ L BB_EXP_CONN_P9 P9
 U 1 1 533029C1
 P 3950 4900
 F 0 "P9" H 3945 6155 60  0000 C CNN
-F 1 "BB_EXP_CONN_P9" H 3950 3680 60  0000 C CNN
-F 2 "~" H 3600 3700 60  0000 C CNN
-F 3 "~" H 3600 3700 60  0000 C CNN
+F 1 "BB_EXP_CONN" H 3950 3680 60  0001 C CNN
+F 2 "" H 3600 3700 60  0000 C CNN
+F 3 "" H 3600 3700 60  0000 C CNN
+F 4 "Major League" H 3950 2100 60  0001 C CNN "Mfg"
+F 5 "TSHC-123-D-06-240-GT-LF" H 3950 2100 60  0001 C CNN "PartNo"
 	1    3950 4900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8100 5200 8100 5300
 $Comp
-L HEADER_6 P102
+L HEADER_6 P101
 U 1 1 5330543C
-P 1350 4050
-F 0 "P102" H 1350 4400 60  0000 C CNN
-F 1 "Serial0" H 1350 3700 60  0000 C CNN
-F 2 "" H 1350 4050 60  0000 C CNN
-F 3 "" H 1350 4050 60  0000 C CNN
-	1    1350 4050
+P 1350 4250
+F 0 "P101" H 1350 4600 60  0000 C CNN
+F 1 "SOCKET_6_LONG" H 1350 3900 60  0001 C CNN
+F 2 "" H 1350 4250 60  0000 C CNN
+F 3 "" H 1350 4250 60  0000 C CNN
+F 4 "Sparkfun" H 1350 4250 60  0001 C CNN "Mfg"
+F 5 "PRT-09280" H 1350 4250 60  0001 C CNN "PartNo"
+	1    1350 4250
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -660,26 +686,26 @@ Wire Wire Line
 Connection ~ 1600 6700
 Wire Wire Line
 	1800 6700 1800 6600
-NoConn ~ 1450 3900
-NoConn ~ 1450 4000
 NoConn ~ 1450 4100
 NoConn ~ 1450 4200
 NoConn ~ 1450 4300
+NoConn ~ 1450 4400
+NoConn ~ 1450 4500
 $Comp
 L GND #PWR012
 U 1 1 53318CE2
-P 1600 3900
-F 0 "#PWR012" H 1600 3900 30  0001 C CNN
-F 1 "GND" H 1600 3830 30  0001 C CNN
-F 2 "" H 1600 3900 60  0001 C CNN
-F 3 "" H 1600 3900 60  0001 C CNN
-	1    1600 3900
+P 1600 4100
+F 0 "#PWR012" H 1600 4100 30  0001 C CNN
+F 1 "GND" H 1600 4030 30  0001 C CNN
+F 2 "" H 1600 4100 60  0001 C CNN
+F 3 "" H 1600 4100 60  0001 C CNN
+	1    1600 4100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 3800 1600 3800
+	1450 4000 1600 4000
 Wire Wire Line
-	1600 3800 1600 3900
+	1600 4000 1600 4100
 NoConn ~ 4550 1700
 $Comp
 L +5V #PWR013
@@ -695,13 +721,15 @@ $EndComp
 Wire Wire Line
 	8100 4700 8100 4650
 $Comp
-L BEAGLEBONE-MTG BB1
+L BEAGLEBONE-MTG BB101
 U 1 1 535D6E77
 P 1250 5500
-F 0 "BB1" H 1525 6150 60  0000 C CNN
-F 1 "BEAGLEBONE-MTG" H 1525 5200 60  0000 C CNN
+F 0 "BB101" H 1525 6150 60  0000 C CNN
+F 1 "BeagleBone Black" H 1525 5200 60  0000 C CNN
 F 2 "" H 1425 6050 60  0000 C CNN
 F 3 "" H 1250 5500 60  0000 C CNN
+F 4 "CircuitCo" H 1250 5500 60  0001 C CNN "Mfg"
+F 5 "BB-BBLK-000" H 1250 5500 60  0001 C CNN "PartNo"
 	1    1250 5500
 	1    0    0    -1  
 $EndComp
@@ -735,4 +763,12 @@ Text GLabel 4550 1700 2    50   BiDi ~ 0
 SPI_SPARE
 Wire Wire Line
 	6950 5550 6750 5550
+Text Notes 1100 3600 0    100  ~ 0
+Serial\nConsole
+Text Notes 1800 4300 0    50   ~ 0
+Uses Arduino 6-pin\nstacking connector\nfor low-cost
+Text Notes 9900 4900 0    100  ~ 0
+Power
+Text Notes 9900 5700 0    100  ~ 0
+Reset
 $EndSCHEMATC
