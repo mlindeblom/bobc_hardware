@@ -1,13 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 4/30/2014 7:56:43 PM
 =======
 Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 5/1/2014 3:14:29 PM
 >>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 5/5/2014 9:45:08 AM
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 
 BeginCmp
 TimeStamp = /535D6E77;
 Reference = BB101;
-ValeurCmp = BEAGLEBONE-MTG;
+ValeurCmp = BeagleBone Black;
 IdModule  = BeagleBone-Pins;
 EndCmp
 
@@ -72,6 +76,48 @@ TimeStamp = /50FC3D20/533060BF;
 Reference = C401;
 ValeurCmp = 100u 35V;
 IdModule  = c_elec_6.3x7.7;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC3D20/5367A681;
+Reference = C402;
+ValeurCmp = None;
+IdModule  = CAPC1608x55N;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC3D20/53679C35;
+Reference = C403;
+ValeurCmp = None;
+IdModule  = CAPC1608x55N;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC3D20/5367A11A;
+Reference = C404;
+ValeurCmp = None;
+IdModule  = CAPC1608x55N;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC3D20/5367A385;
+Reference = C405;
+ValeurCmp = None;
+IdModule  = CAPC1608x55N;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC3D20/5367AE51;
+Reference = C406;
+ValeurCmp = None;
+IdModule  = CAPC1608x55N;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC3D20/5367AE59;
+Reference = C407;
+ValeurCmp = None;
+IdModule  = CAPC1608x55N;
 EndCmp
 
 BeginCmp
@@ -140,43 +186,43 @@ EndCmp
 BeginCmp
 TimeStamp = /50FC3D20/51A9D334;
 Reference = D401;
-ValeurCmp = ES1F;
-IdModule  = DO-214AC;
+ValeurCmp = SS14;
+IdModule  = DIOM5127X229N;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/53299E72;
 Reference = D402;
-ValeurCmp = ES1F;
-IdModule  = DO-214AC;
+ValeurCmp = SS14;
+IdModule  = DIOM5127X229N;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/53299EE9;
 Reference = D403;
-ValeurCmp = ES1F;
-IdModule  = DO-214AC;
+ValeurCmp = SS14;
+IdModule  = DIOM5127X229N;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/53299F79;
 Reference = D404;
-ValeurCmp = ES1F;
-IdModule  = DO-214AC;
+ValeurCmp = SS14;
+IdModule  = DIOM5127X229N;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/53299C1A;
 Reference = D405;
-ValeurCmp = ES1F;
-IdModule  = DO-214AC;
+ValeurCmp = SS14;
+IdModule  = DIOM5127X229N;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/53299FC7;
 Reference = D406;
-ValeurCmp = ES1F;
-IdModule  = DO-214AC;
+ValeurCmp = SS14;
+IdModule  = DIOM5127X229N;
 EndCmp
 
 BeginCmp
