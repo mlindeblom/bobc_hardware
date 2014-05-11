@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 PCBNEW-LibModule-V1  4/30/2014 7:47:49 PM
 =======
 PCBNEW-LibModule-V1  5/1/2014 3:20:55 PM
@@ -7,6 +8,9 @@ PCBNEW-LibModule-V1  5/1/2014 3:20:55 PM
 =======
 PCBNEW-LibModule-V1  5/4/2014 4:46:05 AM
 >>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
+=======
+PCBNEW-LibModule-V1  5/9/2014 4:43:53 PM
+>>>>>>> 4441ca3de83dc802841151e8cf94a47c2b05d854
 # encoding utf-8
 Units mm
 $INDEX
@@ -16,7 +20,11 @@ Fuse-Loose
 <<<<<<< HEAD
 =======
 Keystone-3568
+<<<<<<< HEAD
 >>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
+MTH_4-40
+>>>>>>> 4441ca3de83dc802841151e8cf94a47c2b05d854
 OSRAM-LED-0603
 POLOLU
 PT_1,5-2-3,5-H
@@ -173,7 +181,27 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE Keystone-3568
+<<<<<<< HEAD
 >>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
+$MODULE MTH_4-40
+Po 0 0 0 15 536D4C0D 00000000 ~~
+Li MTH_4-40
+Sc 0
+AR 
+Op 0 0 0
+T0 0 0 1.524 1.524 0 0.3048 N V 21 N "MTH_4-40"
+T1 0 2.54 1.524 1.524 0 0.3048 N V 21 N "VAL**"
+DC 0 0 3.175 0 0.254 21
+$PAD
+Sh "1" C 5.461 5.461 0 0 0
+Dr 3.175 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE MTH_4-40
+>>>>>>> 4441ca3de83dc802841151e8cf94a47c2b05d854
 $MODULE OSRAM-LED-0603
 Po 0 0 0 15 53615D92 00000000 ~~
 Li OSRAM-LED-0603
