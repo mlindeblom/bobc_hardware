@@ -47,6 +47,7 @@ Sheet 3 5
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Date "1 may 2014"
 =======
 Date "2 may 2014"
@@ -56,6 +57,10 @@ Rev "v1.0"
 Date "8 may 2014"
 Rev "v2.1"
 >>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
+=======
+Date "12 may 2014"
+Rev "v2.2"
+>>>>>>> 8ba487aad506868564870d32947b4e914086f93d
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
 Comment2 "Derived from RAMPS-FD by Bob Cousins"
@@ -1363,5 +1368,12 @@ ESTOP
 Text Notes 3600 3600 0    50   ~ 0
 Status LED
 NoConn ~ 2200 7000
+<<<<<<< HEAD
 >>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
+=======
+Text Notes 8000 5250 0    50   ~ 0
+STEP_U
+Text Notes 8000 5350 0    50   ~ 0
+DIR_U
+>>>>>>> 8ba487aad506868564870d32947b4e914086f93d
 $EndSCHEMATC

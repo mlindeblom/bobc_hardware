@@ -47,6 +47,7 @@ Sheet 2 5
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Date "1 may 2014"
 =======
 Date "2 may 2014"
@@ -56,6 +57,10 @@ Rev "v1.0"
 Date "8 may 2014"
 Rev "v2.1"
 >>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
+=======
+Date "12 may 2014"
+Rev "v2.2"
+>>>>>>> 8ba487aad506868564870d32947b4e914086f93d
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
 Comment2 "Derived from RAMPS-FD by Bob Cousins"
