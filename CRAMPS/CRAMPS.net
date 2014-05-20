@@ -3,6 +3,7 @@
     (source S:/Download/Arduino/bobc_hardware/CRAMPS/CRAMPS.sch)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     (date "4/30/2014 7:55:30 PM")
 =======
     (date "5/1/2014 7:46:39 PM")
@@ -10,6 +11,9 @@
 =======
     (date "5/7/2014 9:47:12 AM")
 >>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
+=======
+    (date "5/16/2014 10:30:38 PM")
+>>>>>>> 2e9c80b828d9f7fd76680021f7e01e7a9f9818db
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
     (comp (ref M102)
@@ -22,11 +26,11 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 510E82F9))
     (comp (ref LD101)
-      (value Green)
+      (value Yellow)
       (footprint OSRAM-LED-0603)
       (fields
         (field (name Mfg) Osram)
-        (field (name PartNo) "LG R971-KN-1"))
+        (field (name PartNo) "LY Q976-P1S2-36"))
       (libsource (lib m_cramps) (part LED))
       (sheetpath (names /) (tstamps /))
       (tstamp 50FC24D8))
@@ -100,7 +104,7 @@
       (footprint OSRAM-LED-0603)
       (fields
         (field (name Mfg) Osram)
-        (field (name PartNo) "LG R971-KN-1"))
+        (field (name PartNo) "LG Q971-KN-1"))
       (libsource (lib m_cramps) (part LED))
       (sheetpath (names /) (tstamps /))
       (tstamp 532B490E))
@@ -791,7 +795,7 @@
       (footprint OSRAM-LED-0603)
       (fields
         (field (name Mfg) Osram)
-        (field (name PartNo) "LH R974-LP-1"))
+        (field (name PartNo) "LS Q976-NR-1"))
       (libsource (lib m_cramps) (part LED))
       (sheetpath (names "/Emergency Stop/") (tstamps /5239FA54/))
       (tstamp 532B3294))
@@ -858,7 +862,7 @@
       (footprint OSRAM-LED-0603)
       (fields
         (field (name Mfg) Osram)
-        (field (name PartNo) "LG R971-KN-1"))
+        (field (name PartNo) "LG Q971-KN-1"))
       (libsource (lib m_cramps) (part LED))
       (sheetpath (names "/Emergency Stop/") (tstamps /5239FA54/))
       (tstamp 532B48CF))
@@ -937,11 +941,11 @@
       (sheetpath (names "/Emergency Stop/") (tstamps /5239FA54/))
       (tstamp 53319778))
     (comp (ref P301)
-      (value KK-2.54-2W)
+      (value HEADER_2)
       (footprint pin_strip_2)
       (fields
-        (field (name Mfg) Molex)
-        (field (name PartNo) 22-23-2021))
+        (field (name Mfg) Harwin)
+        (field (name PartNo) M20-9990245))
       (libsource (lib w_connectors) (part HEADER_2))
       (sheetpath (names "/Emergency Stop/") (tstamps /5239FA54/))
       (tstamp 535F148C))
@@ -1131,11 +1135,11 @@
       (sheetpath (names "/Mosfet Outputs/") (tstamps /50FC3D20/))
       (tstamp 510E6DBE))
     (comp (ref LD401)
-      (value Red)
+      (value Yellow)
       (footprint OSRAM-LED-0603)
       (fields
         (field (name Mfg) Osram)
-        (field (name PartNo) "LH R974-LP-1"))
+        (field (name PartNo) "LY Q976-P1S2-36"))
       (libsource (lib m_cramps) (part LED))
       (sheetpath (names "/Mosfet Outputs/") (tstamps /50FC3D20/))
       (tstamp 510478C6))
@@ -1167,11 +1171,11 @@
       (sheetpath (names "/Mosfet Outputs/") (tstamps /50FC3D20/))
       (tstamp 53299C22))
     (comp (ref LD405)
-      (value Red)
+      (value Yellow)
       (footprint OSRAM-LED-0603)
       (fields
         (field (name Mfg) Osram)
-        (field (name PartNo) "LH R974-LP-1"))
+        (field (name PartNo) "LY Q976-P1S2-36"))
       (libsource (lib m_cramps) (part LED))
       (sheetpath (names "/Mosfet Outputs/") (tstamps /50FC3D20/))
       (tstamp 53299C30))
@@ -1212,11 +1216,11 @@
       (sheetpath (names "/Mosfet Outputs/") (tstamps /50FC3D20/))
       (tstamp 53299E7A))
     (comp (ref LD402)
-      (value Red)
+      (value Yellow)
       (footprint OSRAM-LED-0603)
       (fields
         (field (name Mfg) Osram)
-        (field (name PartNo) "LH R974-LP-1"))
+        (field (name PartNo) "LY Q976-P1S2-36"))
       (libsource (lib m_cramps) (part LED))
       (sheetpath (names "/Mosfet Outputs/") (tstamps /50FC3D20/))
       (tstamp 53299E88))
@@ -1248,11 +1252,11 @@
       (sheetpath (names "/Mosfet Outputs/") (tstamps /50FC3D20/))
       (tstamp 53299EF1))
     (comp (ref LD403)
-      (value Red)
+      (value Yellow)
       (footprint OSRAM-LED-0603)
       (fields
         (field (name Mfg) Osram)
-        (field (name PartNo) "LH R974-LP-1"))
+        (field (name PartNo) "LY Q976-P1S2-36"))
       (libsource (lib m_cramps) (part LED))
       (sheetpath (names "/Mosfet Outputs/") (tstamps /50FC3D20/))
       (tstamp 53299EFF))
@@ -1275,11 +1279,11 @@
       (sheetpath (names "/Mosfet Outputs/") (tstamps /50FC3D20/))
       (tstamp 53299F79))
     (comp (ref LD404)
-      (value Red)
+      (value Yellow)
       (footprint OSRAM-LED-0603)
       (fields
         (field (name Mfg) Osram)
-        (field (name PartNo) "LH R974-LP-1"))
+        (field (name PartNo) "LY Q976-P1S2-36"))
       (libsource (lib m_cramps) (part LED))
       (sheetpath (names "/Mosfet Outputs/") (tstamps /50FC3D20/))
       (tstamp 53299F8F))
@@ -1302,11 +1306,11 @@
       (sheetpath (names "/Mosfet Outputs/") (tstamps /50FC3D20/))
       (tstamp 53299FC7))
     (comp (ref LD406)
-      (value Red)
+      (value Yellow)
       (footprint OSRAM-LED-0603)
       (fields
         (field (name Mfg) Osram)
-        (field (name PartNo) "LH R974-LP-1"))
+        (field (name PartNo) "LY Q976-P1S2-36"))
       (libsource (lib m_cramps) (part LED))
       (sheetpath (names "/Mosfet Outputs/") (tstamps /50FC3D20/))
       (tstamp 53299FDD))
@@ -2295,54 +2299,6 @@
         (pin (num 10) (name ~) (type passive))
         (pin (num 11) (name ~) (type passive))
         (pin (num 12) (name ~) (type passive))))
-    (libpart (lib RMC) (part JUMP_MINI)
-      (description Mini-jumper)
-      (fields
-        (field (name Reference) JP)
-        (field (name Value) JUMP_MINI)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib RMC) (part LOGO_OSHW)
-      (footprints
-        (fp OSHW_logo_2))
-      (fields
-        (field (name Reference) M)
-        (field (name Value) LOGO_OSHW)
-        (field (name Footprint) OSHW_logo_2)
-        (field (name Datasheet) ~)))
-    (libpart (lib RMC) (part MOSFET_N_RMC)
-      (description "Power MOSFET")
-      (fields
-        (field (name Reference) Q)
-        (field (name Value) MOSFET_N_RMC)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
-      (pins
-        (pin (num D) (name ~) (type input))
-        (pin (num G) (name ~) (type input))
-        (pin (num S) (name ~) (type input))))
-    (libpart (lib RMC) (part PCB_GREEN_RMC)
-      (footprints
-        (fp PCB))
-      (fields
-        (field (name Reference) M)
-        (field (name Value) PCB_GREEN_RMC)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~)))
-    (libpart (lib beagleboneblack) (part BEAGLEBONE-MTG)
-      (fields
-        (field (name Reference) BB)
-        (field (name Value) BEAGLEBONE-MTG)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
-      (pins
-        (pin (num M1) (name Mtg) (type passive))
-        (pin (num M2) (name Mtg) (type passive))
-        (pin (num M3) (name Mtg) (type passive))
-        (pin (num M4) (name Mtg) (type passive))))
     (libpart (lib w_device) (part FET_N)
       (fields
         (field (name Reference) Q)
@@ -2403,7 +2359,55 @@
         (field (name Datasheet) ~))
       (pins
         (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive)))))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib RMC) (part JUMP_MINI)
+      (description Mini-jumper)
+      (fields
+        (field (name Reference) JP)
+        (field (name Value) JUMP_MINI)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib RMC) (part LOGO_OSHW)
+      (footprints
+        (fp OSHW_logo_2))
+      (fields
+        (field (name Reference) M)
+        (field (name Value) LOGO_OSHW)
+        (field (name Footprint) OSHW_logo_2)
+        (field (name Datasheet) ~)))
+    (libpart (lib RMC) (part MOSFET_N_RMC)
+      (description "Power MOSFET")
+      (fields
+        (field (name Reference) Q)
+        (field (name Value) MOSFET_N_RMC)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num D) (name ~) (type input))
+        (pin (num G) (name ~) (type input))
+        (pin (num S) (name ~) (type input))))
+    (libpart (lib RMC) (part PCB_GREEN_RMC)
+      (footprints
+        (fp PCB))
+      (fields
+        (field (name Reference) M)
+        (field (name Value) PCB_GREEN_RMC)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~)))
+    (libpart (lib beagleboneblack) (part BEAGLEBONE-MTG)
+      (fields
+        (field (name Reference) BB)
+        (field (name Value) BEAGLEBONE-MTG)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num M1) (name Mtg) (type passive))
+        (pin (num M2) (name Mtg) (type passive))
+        (pin (num M3) (name Mtg) (type passive))
+        (pin (num M4) (name Mtg) (type passive)))))
   (libraries
     (library (logical m_cramps)
       (uri ..\KiCAD_Libraries\Lindeblom\m_cramps.lib))
@@ -2411,14 +2415,14 @@
       (uri ..\KiCAD_Libraries\walter\eesch\w_device.lib))
     (library (logical w_connectors)
       (uri ..\KiCAD_Libraries\walter\eesch\w_connectors.lib))
-    (library (logical RMC)
-      (uri ..\KiCAD_Libraries\library\RMC.lib))
-    (library (logical beagleboneblack)
-      (uri ..\KiCAD_Libraries\FlyingBone\beagleboneblack.lib))
     (library (logical w_logic)
       (uri ..\KiCAD_Libraries\walter\eesch\w_logic.lib))
     (library (logical device)
-      (uri "C:\\Program Files (x86)\\KiCad\\share\\library\\device.lib")))
+      (uri "C:\\Program Files (x86)\\KiCad\\share\\library\\device.lib"))
+    (library (logical RMC)
+      (uri ..\KiCAD_Libraries\library\RMC.lib))
+    (library (logical beagleboneblack)
+      (uri ..\KiCAD_Libraries\FlyingBone\beagleboneblack.lib)))
   (nets
     (net (code 1) (name SPI_CS1)
       (node (ref P303) (pin 4))
