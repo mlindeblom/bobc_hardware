@@ -49,6 +49,7 @@ Title "CRAMPS (Cape-RAMPS for BeagleBone)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Date "1 may 2014"
 =======
 Date "2 may 2014"
@@ -63,6 +64,9 @@ Date "12 may 2014"
 =======
 Date "14 may 2014"
 >>>>>>> 2e9c80b828d9f7fd76680021f7e01e7a9f9818db
+=======
+Date "23 may 2014"
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
 Rev "v2.2"
 >>>>>>> 8ba487aad506868564870d32947b4e914086f93d
 Comp ""
@@ -72,10 +76,14 @@ Comment3 "Copyright 2014 GPL v3"
 Comment4 "CRAMPS by Charles Steinkuehler and Murray Lindeblom"
 $EndDescr
 <<<<<<< HEAD
+<<<<<<< HEAD
 Text Notes 2400 3500 0    60   ~ 0
 =======
 Text Notes 2400 3900 0    60   ~ 0
 >>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
+Text Notes 2400 4200 0    60   ~ 0
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
 Emergency Stop switch\n(Normally Closed type)\nuse shunt if not present
 Text GLabel 6900 2800 2    50   Output ~ 0
 FET4_BUF
@@ -148,10 +156,10 @@ Must use ACT type buffer\nwith 24 mA output drive\nInputs are compatible with \n
 Text Notes 7450 1900 0    60   ~ 0
 Each Pololu has a 100K pull-down on the enable \nline.  Make sure the pull up will reach a valid logic \nlevel (2.2V or more) with multiple enables paralleled.
 Text GLabel 1100 2800 0    50   Output ~ 0
-ESTOPn
+ESTOP
 Text GLabel 1250 4850 0    50   Input ~ 0
-ESTOP_SWn
-Text Notes 2400 4300 0    60   ~ 0
+ESTOP_SW
+Text Notes 2400 4600 0    60   ~ 0
 ESTOP Active (high) unless:\n* ESTOP chain is unbroken\n* Software is driving ESTOP_SW low
 Text GLabel 1850 2400 0    50   Input ~ 0
 MACHINE_PWR
@@ -173,29 +181,29 @@ $EndComp
 $Comp
 L LED LD302
 U 1 1 532B3294
-P 3400 3450
-F 0 "LD302" V 3325 3450 50  0000 C CNN
-F 1 "Red" V 3495 3450 50  0000 C CNN
-F 2 "OSRAM-LED-0603" H 3400 3450 60  0001 C CNN
-F 3 "" H 3400 3450 60  0001 C CNN
-F 4 "Osram" H 1750 5000 60  0001 C CNN "Mfg"
-F 5 "LS Q976-NR-1" H 1750 5000 60  0001 C CNN "PartNo"
-	1    3400 3450
+P 3200 3300
+F 0 "LD302" V 3125 3300 50  0000 C CNN
+F 1 "Red" V 3295 3300 50  0000 C CNN
+F 2 "OSRAM-LED-0603" H 3200 3300 60  0001 C CNN
+F 3 "" H 3200 3300 60  0001 C CNN
+F 4 "Osram" H 1550 4850 60  0001 C CNN "Mfg"
+F 5 "LS Q976-NR-1" H 1550 4850 60  0001 C CNN "PartNo"
+	1    3200 3300
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R305
 U 1 1 532B32A1
-P 3400 3150
-F 0 "R305" V 3350 3150 50  0000 C CNN
-F 1 "220R" V 3470 3150 50  0000 C CNN
-F 2 "RESC1608x55N" H 3400 3150 60  0001 C CNN
-F 3 "" H 3400 3150 60  0000 C CNN
-F 4 "Stackpole" H 6450 5700 60  0001 C CNN "Mfg"
-F 5 "RMCF0603FT220R" H 6450 5700 60  0001 C CNN "PartNo"
-F 6 "KOA" H 6450 5700 60  0001 C CNN "AltMfg"
-F 7 "RK73H1JTTD2200F" H 6450 5700 60  0001 C CNN "AltPartNo"
-	1    3400 3150
+P 3200 3000
+F 0 "R305" V 3150 3000 50  0000 C CNN
+F 1 "220R" V 3270 3000 50  0000 C CNN
+F 2 "RESC1608x55N" H 3200 3000 60  0001 C CNN
+F 3 "" H 3200 3000 60  0000 C CNN
+F 4 "Stackpole" H 6250 5550 60  0001 C CNN "Mfg"
+F 5 "RMCF0603FT220R" H 6250 5550 60  0001 C CNN "PartNo"
+F 6 "KOA" H 6250 5550 60  0001 C CNN "AltMfg"
+F 7 "RK73H1JTTD2200F" H 6250 5550 60  0001 C CNN "AltPartNo"
+	1    3200 3000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -253,16 +261,16 @@ $EndComp
 $Comp
 L R R304
 U 1 1 532B3F20
-P 2900 3500
-F 0 "R304" V 2850 3500 50  0000 C CNN
-F 1 "4k7" V 2970 3500 50  0000 C CNN
-F 2 "RESC1608x55N" H 2900 3500 60  0001 C CNN
-F 3 "" H 2900 3500 60  0001 C CNN
-F 4 "Stackpole" H 6450 5700 60  0001 C CNN "Mfg"
-F 5 "RMCF0603FT4K70" H 6450 5700 60  0001 C CNN "PartNo"
-F 6 "KOA" H 6450 5700 60  0001 C CNN "AltMfg"
-F 7 "RK73H1JTTD4701F" H 6450 5700 60  0001 C CNN "AltPartNo"
-	1    2900 3500
+P 2600 3500
+F 0 "R304" V 2550 3500 50  0000 C CNN
+F 1 "4k7" V 2670 3500 50  0000 C CNN
+F 2 "RESC1608x55N" H 2600 3500 60  0001 C CNN
+F 3 "" H 2600 3500 60  0001 C CNN
+F 4 "Stackpole" H 6150 5700 60  0001 C CNN "Mfg"
+F 5 "RMCF0603FT4K70" H 6150 5700 60  0001 C CNN "PartNo"
+F 6 "KOA" H 6150 5700 60  0001 C CNN "AltMfg"
+F 7 "RK73H1JTTD4701F" H 6150 5700 60  0001 C CNN "AltPartNo"
+	1    2600 3500
 	1    0    0    -1  
 $EndComp
 Text Notes 2700 1800 0    50   ~ 0
@@ -500,12 +508,12 @@ $EndComp
 $Comp
 L +3.3V #PWR050
 U 1 1 5331C17A
-P 2900 3350
-F 0 "#PWR050" H 2900 3310 30  0001 C CNN
-F 1 "+3.3V" H 2900 3460 30  0000 C CNN
-F 2 "" H 2900 3350 60  0000 C CNN
-F 3 "" H 2900 3350 60  0000 C CNN
-	1    2900 3350
+P 2600 3350
+F 0 "#PWR050" H 2600 3310 30  0001 C CNN
+F 1 "+3.3V" H 2600 3460 30  0000 C CNN
+F 2 "" H 2600 3350 60  0000 C CNN
+F 3 "" H 2600 3350 60  0000 C CNN
+	1    2600 3350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -598,12 +606,12 @@ $EndComp
 $Comp
 L +3.3V #PWR057
 U 1 1 535BA9A7
-P 3400 2950
-F 0 "#PWR057" H 3400 2910 30  0001 C CNN
-F 1 "+3.3V" H 3400 3060 30  0000 C CNN
-F 2 "" H 3400 2950 60  0000 C CNN
-F 3 "" H 3400 2950 60  0000 C CNN
-	1    3400 2950
+P 3200 2800
+F 0 "#PWR057" H 3200 2760 30  0001 C CNN
+F 1 "+3.3V" H 3200 2910 30  0000 C CNN
+F 2 "" H 3200 2800 60  0000 C CNN
+F 3 "" H 3200 2800 60  0000 C CNN
+	1    3200 2800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -622,19 +630,36 @@ F 7 "RK73H1JTTD2701F" H 5950 5350 60  0001 C CNN "AltPartNo"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6200 3100 6900 3100
+	6200 3100 6300 3100
+Wire Wire Line
+	6300 3100 6900 3100
 Wire Wire Line
 	5800 1000 5800 1100
 Wire Wire Line
+<<<<<<< HEAD
 	6200 2400 6900 2400
 <<<<<<< HEAD
+=======
+	6200 2400 6800 2400
 Wire Wire Line
-	6200 2200 8600 2200
+	6800 2400 6900 2400
 Wire Wire Line
-	6200 2500 6900 2500
+	6200 2200 6700 2200
 Wire Wire Line
-	6200 2900 6900 2900
+	6700 2200 8500 2200
 Wire Wire Line
+	8500 2200 8600 2200
+Wire Wire Line
+	6200 2500 6700 2500
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
+Wire Wire Line
+	6700 2500 6900 2500
+Wire Wire Line
+	6200 2900 6500 2900
+Wire Wire Line
+	6500 2900 6900 2900
+Wire Wire Line
+<<<<<<< HEAD
 =======
 Wire Wire Line
 	6200 2200 8600 2200
@@ -645,6 +670,11 @@ Wire Wire Line
 Wire Wire Line
 >>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 	6200 3000 6900 3000
+=======
+	6200 3000 6400 3000
+Wire Wire Line
+	6400 3000 6900 3000
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
 Wire Wire Line
 	5800 1300 5800 1400
 Wire Notes Line
@@ -668,7 +698,9 @@ Wire Wire Line
 	8500 2400 8600 2400
 Connection ~ 8500 2200
 Wire Wire Line
-	6200 2800 6900 2800
+	6200 2800 6600 2800
+Wire Wire Line
+	6600 2800 6900 2800
 Wire Wire Line
 	8500 2700 8600 2700
 Connection ~ 8500 2500
@@ -678,11 +710,13 @@ Connection ~ 8500 2600
 Wire Wire Line
 	2150 2250 2150 1900
 Wire Wire Line
-	4800 2200 5400 2200
+	4800 2200 5300 2200
 Wire Wire Line
-	3400 3350 3400 3250
+	5300 2200 5400 2200
 Wire Wire Line
-	3400 3050 3400 2950
+	3200 3200 3200 3100
+Wire Wire Line
+	3200 2900 3200 2800
 Wire Wire Line
 	2200 5000 2200 5100
 Wire Wire Line
@@ -690,7 +724,9 @@ Wire Wire Line
 Wire Wire Line
 	2150 2550 2150 2600
 Wire Wire Line
-	2150 2600 2450 2600
+	2150 2600 2300 2600
+Wire Wire Line
+	2300 2600 2450 2600
 Wire Wire Line
 	2450 2600 2450 2550
 Connection ~ 2300 2600
@@ -699,7 +735,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 5000 1600 5100
 Wire Wire Line
-	2900 3400 2900 3350
+	2600 3400 2600 3350
 Wire Wire Line
 	5800 3250 5800 3300
 Wire Wire Line
@@ -721,14 +757,28 @@ Wire Wire Line
 	4200 2650 4200 2050
 Connection ~ 4200 2050
 Wire Wire Line
-	2450 1850 2450 2250
+	2450 1850 2450 2050
 Wire Wire Line
-	2450 2050 5400 2050
+	2450 2050 2450 2250
+Wire Wire Line
+	2450 2050 4200 2050
+Wire Wire Line
+	4200 2050 5300 2050
+Wire Wire Line
+	5300 2050 5400 2050
 Wire Wire Line
 	5800 1900 5800 1850
 Connection ~ 5300 2050
 Wire Wire Line
-	8500 2200 8500 2700
+	8500 2200 8500 2300
+Wire Wire Line
+	8500 2300 8500 2400
+Wire Wire Line
+	8500 2400 8500 2500
+Wire Wire Line
+	8500 2500 8500 2600
+Wire Wire Line
+	8500 2600 8500 2700
 Wire Wire Line
 	5400 2300 5300 2300
 Wire Wire Line
@@ -740,8 +790,11 @@ Connection ~ 2750 7600
 Wire Wire Line
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	1400 6100 2750 6100
 =======
+=======
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
 	1400 6500 1700 6500
 Wire Wire Line
 	1700 6500 1900 6500
@@ -749,12 +802,15 @@ Wire Wire Line
 	1900 6500 2000 6500
 Wire Wire Line
 	2000 6500 2750 6500
+<<<<<<< HEAD
 >>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
 Wire Wire Line
 	2200 7300 2200 7600
 =======
 	1400 6500 2750 6500
 >>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
+=======
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
 Wire Wire Line
 	1900 6600 1900 6500
 Connection ~ 1900 6500
@@ -773,6 +829,7 @@ Connection ~ 3500 6900
 Wire Wire Line
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	3350 6600 3900 6600
 Wire Wire Line
 	3350 6500 3900 6500
@@ -784,10 +841,18 @@ Wire Wire Line
 =======
 	3350 7000 3900 7000
 >>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
+=======
+	3350 7000 3700 7000
 Wire Wire Line
-	3350 6900 3900 6900
+	3700 7000 3900 7000
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
+Wire Wire Line
+	3350 6900 3500 6900
+Wire Wire Line
+	3500 6900 3900 6900
 Connection ~ 3700 7000
 Wire Wire Line
+<<<<<<< HEAD
 <<<<<<< HEAD
 	3500 6400 3500 6500
 Wire Wire Line
@@ -796,6 +861,11 @@ Wire Wire Line
 =======
 	3500 6400 3500 6600
 >>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
+=======
+	3500 6400 3500 6500
+Wire Wire Line
+	3500 6500 3500 6600
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
 Wire Wire Line
 	3500 6500 3700 6500
 Wire Wire Line
@@ -839,6 +909,7 @@ Wire Wire Line
 Wire Wire Line
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	1600 4100 1600 4300
 Connection ~ 1600 4200
 =======
@@ -848,6 +919,11 @@ Wire Wire Line
 =======
 	1600 4500 1600 4700
 >>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
+=======
+	1600 4500 1600 4600
+Wire Wire Line
+	1600 4600 1600 4700
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
 Connection ~ 1600 4600
 >>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
 Wire Wire Line
@@ -855,6 +931,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 2000 1500 2100
 Wire Wire Line
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 	2300 2600 2300 3300
@@ -876,11 +953,14 @@ Wire Wire Line
 Wire Wire Line
 	2100 3700 3400 3700
 >>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
+=======
+	2300 2600 2300 2800
 Wire Wire Line
-	3400 3700 3400 3550
+	2300 2800 2300 3700
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
 Wire Wire Line
-	2900 3700 2900 3600
-Connection ~ 2900 3700
+	2600 3700 2600 3600
+Connection ~ 2600 3700
 Wire Wire Line
 	2100 3800 2200 3800
 Wire Wire Line
@@ -1062,9 +1142,19 @@ F 7 "RK73H1JTTD1002F" H 8150 8000 60  0001 C CNN "AltPartNo"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6300 3400 6300 3800
+	6300 3400 6300 3700
 Wire Wire Line
-	6300 3700 6800 3700
+	6300 3700 6300 3800
+Wire Wire Line
+	6300 3700 6400 3700
+Wire Wire Line
+	6400 3700 6500 3700
+Wire Wire Line
+	6500 3700 6600 3700
+Wire Wire Line
+	6600 3700 6700 3700
+Wire Wire Line
+	6700 3700 6800 3700
 Wire Wire Line
 	6800 3700 6800 3600
 Wire Wire Line
@@ -1093,6 +1183,7 @@ $EndComp
 Wire Wire Line
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	1400 6000 1400 6600
 Connection ~ 1700 6100
 Connection ~ 1400 6100
@@ -1103,6 +1194,11 @@ Wire Wire Line
 =======
 	1400 6400 1400 7000
 >>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
+=======
+	1400 6400 1400 6500
+Wire Wire Line
+	1400 6500 1400 7000
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
 Connection ~ 1700 6500
 Connection ~ 1400 6500
 >>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
@@ -1126,7 +1222,9 @@ Wire Wire Line
 	1700 7100 2200 7100
 Connection ~ 8500 2400
 Wire Wire Line
-	6200 2300 8300 2300
+	6200 2300 6400 2300
+Wire Wire Line
+	6400 2300 8300 2300
 Text GLabel 8600 2900 2    50   Output ~ 0
 EN_CRAMP3n
 Text GLabel 7400 5400 2    50   Input ~ 0
@@ -1141,7 +1239,9 @@ Wire Wire Line
 	6400 2300 6400 1900
 Connection ~ 6400 2300
 Wire Wire Line
-	6400 1500 6400 1700
+	6400 1500 6400 1600
+Wire Wire Line
+	6400 1600 6400 1700
 Wire Wire Line
 	6700 1700 6700 1600
 Wire Wire Line
@@ -1250,6 +1350,7 @@ $EndComp
 Wire Wire Line
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	7300 5800 7300 6100
 =======
 	7300 6000 7300 6100
@@ -1261,6 +1362,13 @@ Wire Wire Line
 =======
 	6800 6000 6800 6300
 >>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
+=======
+	6800 6000 6800 6100
+Wire Wire Line
+	6800 6100 6800 6200
+Wire Wire Line
+	6800 6200 6800 6300
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
 Wire Wire Line
 	6800 6100 6900 6100
 Wire Wire Line
@@ -1290,7 +1398,11 @@ Wire Wire Line
 	7300 6300 7200 6300
 >>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 Wire Wire Line
-	7300 6100 7300 6400
+	7300 6100 7300 6200
+Wire Wire Line
+	7300 6200 7300 6300
+Wire Wire Line
+	7300 6300 7300 6400
 Wire Wire Line
 	7200 6200 7300 6200
 Connection ~ 7300 6300
@@ -1343,17 +1455,17 @@ Place a shunt on ESTOP header\nby default, for folks who do not\nhave an off-boa
 $Comp
 L SHUNT S301
 U 1 1 536179A3
-P 4200 4750
-F 0 "S301" H 4200 4850 60  0000 C CNN
-F 1 "SHUNT" H 4200 4650 60  0000 C CNN
-F 2 "Shunt" H 4200 4750 60  0001 C CNN
-F 3 "" H 4200 4750 60  0000 C CNN
-F 4 "TE" H 9200 2850 60  0001 C CNN "Mfg"
-F 5 "382811-8" H 9200 2850 60  0001 C CNN "PartNo"
-	1    4200 4750
+P 4200 5050
+F 0 "S301" H 4200 5150 60  0000 C CNN
+F 1 "SHUNT" H 4200 4950 60  0000 C CNN
+F 2 "Shunt" H 4200 5050 60  0001 C CNN
+F 3 "" H 4200 5050 60  0000 C CNN
+F 4 "TE" H 9200 3150 60  0001 C CNN "Mfg"
+F 5 "382811-8" H 9200 3150 60  0001 C CNN "PartNo"
+	1    4200 5050
 	1    0    0    -1  
 $EndComp
-Text Notes 2400 4700 0    60   ~ 0
+Text Notes 2400 5000 0    60   ~ 0
 Place a shunt on ESTOP header\nby default, for folks who do not\nhave an off-board ESTOP switch
 Text Notes 6700 5800 0    75   ~ 0
 Motor Power
@@ -1367,9 +1479,9 @@ Series resistor on ESTOPn provides\nsome protection from ESTOP chain\n\nFETs pro
 Series resistor on ESTOPn provides\nsome protection from ESTOP chain\n\nFETs protect against high voltage\nfrom PS_ON or MACHINE_PWRn\nfeeding back to the 3.3V 'Bone\n
 Text Notes 2700 1700 0    100  ~ 0
 ACTIVE
-Text Notes 3600 3500 0    100  ~ 0
+Text Notes 3400 3300 0    100  ~ 0
 ESTOP
-Text Notes 3600 3600 0    50   ~ 0
+Text Notes 3400 3400 0    50   ~ 0
 Status LED
 NoConn ~ 2200 7000
 <<<<<<< HEAD
@@ -1379,5 +1491,42 @@ Text Notes 8000 5250 0    50   ~ 0
 STEP_U
 Text Notes 8000 5350 0    50   ~ 0
 DIR_U
+<<<<<<< HEAD
 >>>>>>> 8ba487aad506868564870d32947b4e914086f93d
+=======
+$Comp
+L FET_N Q305
+U 1 1 537F5F16
+P 3150 3700
+F 0 "Q305" H 2950 3850 70  0000 C CNN
+F 1 "2N7002K" H 2900 3500 60  0000 C CNN
+F 2 "SOT23GDS" H 3150 3700 60  0001 C CNN
+F 3 "" H 3150 3700 60  0000 C CNN
+F 4 "Diodes Inc." H 8100 4800 60  0001 C CNN "Mfg"
+F 5 "2N7002K-7" H 8100 4800 60  0001 C CNN "PartNo"
+	1    3150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 537F5F3A
+P 3200 3950
+F 0 "#PWR?" H 3200 3950 30  0001 C CNN
+F 1 "GND" H 3200 3880 30  0001 C CNN
+F 2 "" H 3200 3950 60  0001 C CNN
+F 3 "" H 3200 3950 60  0001 C CNN
+	1    3200 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 3850 3200 3950
+Wire Wire Line
+	3200 3400 3200 3550
+Wire Wire Line
+	2100 3700 2300 3700
+Wire Wire Line
+	2300 3700 2600 3700
+Wire Wire Line
+	2600 3700 3000 3700
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
 $EndSCHEMATC

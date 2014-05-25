@@ -49,6 +49,7 @@ Title "CRAMPS (Cape-RAMPS for BeagleBone)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Date "1 may 2014"
 =======
 Date "2 may 2014"
@@ -63,6 +64,9 @@ Date "12 may 2014"
 =======
 Date "14 may 2014"
 >>>>>>> 2e9c80b828d9f7fd76680021f7e01e7a9f9818db
+=======
+Date "23 may 2014"
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
 Rev "v2.2"
 >>>>>>> 8ba487aad506868564870d32947b4e914086f93d
 Comp ""
@@ -235,9 +239,9 @@ eMMC
 Text Notes 2550 2100 0    60   ~ 0
 eMMC
 Text GLabel 3350 1800 0    50   Input ~ 0
-ESTOPn
+ESTOP
 Text GLabel 4550 2200 2    50   Output ~ 0
-ESTOP_SWn
+ESTOP_SW
 Text GLabel 4550 5800 2    50   Output ~ 0
 SPI_CS1
 Text GLabel 3350 4900 0    50   Output ~ 0
