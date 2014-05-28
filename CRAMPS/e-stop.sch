@@ -50,6 +50,7 @@ Title "CRAMPS (Cape-RAMPS for BeagleBone)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Date "1 may 2014"
 =======
 Date "2 may 2014"
@@ -67,6 +68,9 @@ Date "14 may 2014"
 =======
 Date "23 may 2014"
 >>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
+=======
+Date "25 may 2014"
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
 Rev "v2.2"
 >>>>>>> 8ba487aad506868564870d32947b4e914086f93d
 Comp ""
@@ -336,7 +340,7 @@ F 1 "74ACT244" V 5800 2600 60  0000 C CNN
 F 2 "SOIC127P1032X265-20N" H 5800 2600 60  0001 C CNN
 F 3 "" H 5800 2600 60  0000 C CNN
 F 4 "Fairchild" H 5800 2600 60  0001 C CNN "Mfg"
-F 5 "74ACT244SC" H 5800 2600 60  0001 C CNN "PartNo"
+F 5 "74ACT244SCX" H 5800 2600 60  0001 C CNN "PartNo"
 	1    5800 2600
 	1    0    0    -1  
 $EndComp
@@ -630,12 +634,11 @@ F 7 "RK73H1JTTD2701F" H 5950 5350 60  0001 C CNN "AltPartNo"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6200 3100 6300 3100
-Wire Wire Line
-	6300 3100 6900 3100
+	6200 3100 6900 3100
 Wire Wire Line
 	5800 1000 5800 1100
 Wire Wire Line
+<<<<<<< HEAD
 <<<<<<< HEAD
 	6200 2400 6900 2400
 <<<<<<< HEAD
@@ -652,11 +655,17 @@ Wire Wire Line
 Wire Wire Line
 	6200 2500 6700 2500
 >>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
+=======
+	6200 2400 6900 2400
 Wire Wire Line
-	6700 2500 6900 2500
+	6200 2200 8600 2200
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
 Wire Wire Line
-	6200 2900 6500 2900
+	6200 2500 6900 2500
 Wire Wire Line
+	6200 2900 6900 2900
+Wire Wire Line
+<<<<<<< HEAD
 	6500 2900 6900 2900
 Wire Wire Line
 <<<<<<< HEAD
@@ -675,6 +684,9 @@ Wire Wire Line
 Wire Wire Line
 	6400 3000 6900 3000
 >>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
+=======
+	6200 3000 6900 3000
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
 Wire Wire Line
 	5800 1300 5800 1400
 Wire Notes Line
@@ -698,9 +710,7 @@ Wire Wire Line
 	8500 2400 8600 2400
 Connection ~ 8500 2200
 Wire Wire Line
-	6200 2800 6600 2800
-Wire Wire Line
-	6600 2800 6900 2800
+	6200 2800 6900 2800
 Wire Wire Line
 	8500 2700 8600 2700
 Connection ~ 8500 2500
@@ -710,9 +720,7 @@ Connection ~ 8500 2600
 Wire Wire Line
 	2150 2250 2150 1900
 Wire Wire Line
-	4800 2200 5300 2200
-Wire Wire Line
-	5300 2200 5400 2200
+	4800 2200 5400 2200
 Wire Wire Line
 	3200 3200 3200 3100
 Wire Wire Line
@@ -724,9 +732,7 @@ Wire Wire Line
 Wire Wire Line
 	2150 2550 2150 2600
 Wire Wire Line
-	2150 2600 2300 2600
-Wire Wire Line
-	2300 2600 2450 2600
+	2150 2600 2450 2600
 Wire Wire Line
 	2450 2600 2450 2550
 Connection ~ 2300 2600
@@ -757,28 +763,14 @@ Wire Wire Line
 	4200 2650 4200 2050
 Connection ~ 4200 2050
 Wire Wire Line
-	2450 1850 2450 2050
+	2450 1850 2450 2250
 Wire Wire Line
-	2450 2050 2450 2250
-Wire Wire Line
-	2450 2050 4200 2050
-Wire Wire Line
-	4200 2050 5300 2050
-Wire Wire Line
-	5300 2050 5400 2050
+	2450 2050 5400 2050
 Wire Wire Line
 	5800 1900 5800 1850
 Connection ~ 5300 2050
 Wire Wire Line
-	8500 2200 8500 2300
-Wire Wire Line
-	8500 2300 8500 2400
-Wire Wire Line
-	8500 2400 8500 2500
-Wire Wire Line
-	8500 2500 8500 2600
-Wire Wire Line
-	8500 2600 8500 2700
+	8500 2200 8500 2700
 Wire Wire Line
 	5400 2300 5300 2300
 Wire Wire Line
@@ -788,6 +780,7 @@ Wire Wire Line
 	2750 7600 2750 7700
 Connection ~ 2750 7600
 Wire Wire Line
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -811,6 +804,9 @@ Wire Wire Line
 >>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 =======
 >>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
+=======
+	1400 6500 2750 6500
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
 Wire Wire Line
 	1900 6600 1900 6500
 Connection ~ 1900 6500
@@ -827,6 +823,7 @@ Wire Wire Line
 	2750 6500 2750 6600
 Connection ~ 3500 6900
 Wire Wire Line
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -866,6 +863,14 @@ Wire Wire Line
 Wire Wire Line
 	3500 6500 3500 6600
 >>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
+=======
+	3350 7000 3900 7000
+Wire Wire Line
+	3350 6900 3900 6900
+Connection ~ 3700 7000
+Wire Wire Line
+	3500 6400 3500 6600
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
 Wire Wire Line
 	3500 6500 3700 6500
 Wire Wire Line
@@ -910,6 +915,7 @@ Wire Wire Line
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	1600 4100 1600 4300
 Connection ~ 1600 4200
 =======
@@ -924,6 +930,9 @@ Wire Wire Line
 Wire Wire Line
 	1600 4600 1600 4700
 >>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
+=======
+	1600 4500 1600 4700
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
 Connection ~ 1600 4600
 >>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
 Wire Wire Line
@@ -934,6 +943,7 @@ Wire Wire Line
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	2300 2600 2300 3300
 Wire Wire Line
 	2100 3300 3400 3300
@@ -941,6 +951,9 @@ Wire Wire Line
 	2300 2600 2300 2800
 Wire Wire Line
 	2300 2800 2300 3700
+=======
+	2300 2600 2300 3700
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
 Wire Wire Line
 	2100 3700 2300 3700
 Wire Wire Line
@@ -1142,19 +1155,9 @@ F 7 "RK73H1JTTD1002F" H 8150 8000 60  0001 C CNN "AltPartNo"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6300 3400 6300 3700
+	6300 3400 6300 3800
 Wire Wire Line
-	6300 3700 6300 3800
-Wire Wire Line
-	6300 3700 6400 3700
-Wire Wire Line
-	6400 3700 6500 3700
-Wire Wire Line
-	6500 3700 6600 3700
-Wire Wire Line
-	6600 3700 6700 3700
-Wire Wire Line
-	6700 3700 6800 3700
+	6300 3700 6800 3700
 Wire Wire Line
 	6800 3700 6800 3600
 Wire Wire Line
@@ -1184,6 +1187,7 @@ Wire Wire Line
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	1400 6000 1400 6600
 Connection ~ 1700 6100
 Connection ~ 1400 6100
@@ -1199,6 +1203,9 @@ Wire Wire Line
 Wire Wire Line
 	1400 6500 1400 7000
 >>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
+=======
+	1400 6400 1400 7000
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
 Connection ~ 1700 6500
 Connection ~ 1400 6500
 >>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
@@ -1222,9 +1229,7 @@ Wire Wire Line
 	1700 7100 2200 7100
 Connection ~ 8500 2400
 Wire Wire Line
-	6200 2300 6400 2300
-Wire Wire Line
-	6400 2300 8300 2300
+	6200 2300 8300 2300
 Text GLabel 8600 2900 2    50   Output ~ 0
 EN_CRAMP3n
 Text GLabel 7400 5400 2    50   Input ~ 0
@@ -1239,9 +1244,7 @@ Wire Wire Line
 	6400 2300 6400 1900
 Connection ~ 6400 2300
 Wire Wire Line
-	6400 1500 6400 1600
-Wire Wire Line
-	6400 1600 6400 1700
+	6400 1500 6400 1700
 Wire Wire Line
 	6700 1700 6700 1600
 Wire Wire Line
@@ -1351,6 +1354,7 @@ Wire Wire Line
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	7300 5800 7300 6100
 =======
 	7300 6000 7300 6100
@@ -1369,6 +1373,9 @@ Wire Wire Line
 Wire Wire Line
 	6800 6200 6800 6300
 >>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
+=======
+	6800 6000 6800 6300
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
 Wire Wire Line
 	6800 6100 6900 6100
 Wire Wire Line
@@ -1398,11 +1405,7 @@ Wire Wire Line
 	7300 6300 7200 6300
 >>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 Wire Wire Line
-	7300 6100 7300 6200
-Wire Wire Line
-	7300 6200 7300 6300
-Wire Wire Line
-	7300 6300 7300 6400
+	7300 6100 7300 6400
 Wire Wire Line
 	7200 6200 7300 6200
 Connection ~ 7300 6300
@@ -1508,10 +1511,10 @@ F 5 "2N7002K-7" H 8100 4800 60  0001 C CNN "PartNo"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR064
 U 1 1 537F5F3A
 P 3200 3950
-F 0 "#PWR?" H 3200 3950 30  0001 C CNN
+F 0 "#PWR064" H 3200 3950 30  0001 C CNN
 F 1 "GND" H 3200 3880 30  0001 C CNN
 F 2 "" H 3200 3950 60  0001 C CNN
 F 3 "" H 3200 3950 60  0001 C CNN
@@ -1523,10 +1526,14 @@ Wire Wire Line
 Wire Wire Line
 	3200 3400 3200 3550
 Wire Wire Line
+<<<<<<< HEAD
 	2100 3700 2300 3700
 Wire Wire Line
 	2300 3700 2600 3700
 Wire Wire Line
 	2600 3700 3000 3700
 >>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
+=======
+	2100 3700 3000 3700
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
 $EndSCHEMATC
