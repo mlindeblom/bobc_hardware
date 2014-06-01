@@ -26,15 +26,19 @@ x Generate schematic for CRAMP3 (3-channel add-on board)
 x Change 2N7002 value to 2N7002K to avoid confusion
 x   Manufacturer part number is correct
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 =======
   Fix inverted ESTOP LED
 >>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
+=======
+x Fix inverted ESTOP LED
+>>>>>>> 61a0daad72d5b17c6fbf31be0463f16e1147453a
 
 PCB Updates:
-  Label headers
-    P301 ATX power-on
-    JP301 Address/Write-protect
+x Label headers
+x   P301 ATX power-on
+x   JP301 Address/Write-protect
 x Move serial header to proper location
   Cleanup board after re-running through auto-router
 x Use 1.02 mm drill for Pololu Sockets (65 mil pad / 40 mil drill)

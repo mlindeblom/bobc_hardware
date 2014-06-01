@@ -50,6 +50,7 @@ Title "CRAMPS (Cape-RAMPS for BeagleBone)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Date "1 may 2014"
 =======
 Date "2 may 2014"
@@ -67,6 +68,9 @@ Date "14 may 2014"
 =======
 Date "23 may 2014"
 >>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
+=======
+Date "25 may 2014"
+>>>>>>> 61a0daad72d5b17c6fbf31be0463f16e1147453a
 Rev "v2.2"
 >>>>>>> 8ba487aad506868564870d32947b4e914086f93d
 Comp ""

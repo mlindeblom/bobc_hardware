@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     (date "4/30/2014 7:55:30 PM")
 =======
     (date "5/1/2014 7:46:39 PM")
@@ -18,6 +19,9 @@
 =======
     (date "5/23/2014 9:49:22 AM")
 >>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
+=======
+    (date "5/28/2014 5:26:41 PM")
+>>>>>>> 61a0daad72d5b17c6fbf31be0463f16e1147453a
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
     (comp (ref M102)
@@ -895,7 +899,7 @@
       (footprint SOIC127P1032X265-20N)
       (fields
         (field (name Mfg) Fairchild)
-        (field (name PartNo) 74ACT244SC))
+        (field (name PartNo) 74ACT244SCX))
       (libsource (lib w_logic) (part 74HC244))
       (sheetpath (names "/Emergency Stop/") (tstamps /5239FA54/))
       (tstamp 53309257))
