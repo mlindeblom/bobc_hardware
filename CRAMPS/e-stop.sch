@@ -70,7 +70,11 @@ Date "23 may 2014"
 >>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
 =======
 Date "25 may 2014"
+<<<<<<< HEAD
 >>>>>>> 61a0daad72d5b17c6fbf31be0463f16e1147453a
+=======
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
+>>>>>>> 1e90bc99a875d9ca41e8b7a7efa8e89ac9bf0aeb
 Rev "v2.2"
 >>>>>>> 8ba487aad506868564870d32947b4e914086f93d
 Comp ""
@@ -659,7 +663,11 @@ Wire Wire Line
 	6200 2400 6900 2400
 Wire Wire Line
 	6200 2200 8600 2200
+<<<<<<< HEAD
 >>>>>>> 61a0daad72d5b17c6fbf31be0463f16e1147453a
+=======
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
+>>>>>>> 1e90bc99a875d9ca41e8b7a7efa8e89ac9bf0aeb
 Wire Wire Line
 	6200 2500 6900 2500
 Wire Wire Line
@@ -686,7 +694,11 @@ Wire Wire Line
 >>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
 =======
 	6200 3000 6900 3000
+<<<<<<< HEAD
 >>>>>>> 61a0daad72d5b17c6fbf31be0463f16e1147453a
+=======
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
+>>>>>>> 1e90bc99a875d9ca41e8b7a7efa8e89ac9bf0aeb
 Wire Wire Line
 	5800 1300 5800 1400
 Wire Notes Line
@@ -806,7 +818,11 @@ Wire Wire Line
 >>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
 =======
 	1400 6500 2750 6500
+<<<<<<< HEAD
 >>>>>>> 61a0daad72d5b17c6fbf31be0463f16e1147453a
+=======
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
+>>>>>>> 1e90bc99a875d9ca41e8b7a7efa8e89ac9bf0aeb
 Wire Wire Line
 	1900 6600 1900 6500
 Connection ~ 1900 6500
@@ -870,7 +886,11 @@ Wire Wire Line
 Connection ~ 3700 7000
 Wire Wire Line
 	3500 6400 3500 6600
+<<<<<<< HEAD
 >>>>>>> 61a0daad72d5b17c6fbf31be0463f16e1147453a
+=======
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
+>>>>>>> 1e90bc99a875d9ca41e8b7a7efa8e89ac9bf0aeb
 Wire Wire Line
 	3500 6500 3700 6500
 Wire Wire Line
@@ -932,7 +952,11 @@ Wire Wire Line
 >>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
 =======
 	1600 4500 1600 4700
+<<<<<<< HEAD
 >>>>>>> 61a0daad72d5b17c6fbf31be0463f16e1147453a
+=======
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
+>>>>>>> 1e90bc99a875d9ca41e8b7a7efa8e89ac9bf0aeb
 Connection ~ 1600 4600
 >>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
 Wire Wire Line
@@ -953,7 +977,11 @@ Wire Wire Line
 	2300 2800 2300 3700
 =======
 	2300 2600 2300 3700
+<<<<<<< HEAD
 >>>>>>> 61a0daad72d5b17c6fbf31be0463f16e1147453a
+=======
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
+>>>>>>> 1e90bc99a875d9ca41e8b7a7efa8e89ac9bf0aeb
 Wire Wire Line
 	2100 3700 2300 3700
 Wire Wire Line
@@ -1205,7 +1233,11 @@ Wire Wire Line
 >>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
 =======
 	1400 6400 1400 7000
+<<<<<<< HEAD
 >>>>>>> 61a0daad72d5b17c6fbf31be0463f16e1147453a
+=======
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
+>>>>>>> 1e90bc99a875d9ca41e8b7a7efa8e89ac9bf0aeb
 Connection ~ 1700 6500
 Connection ~ 1400 6500
 >>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
@@ -1375,7 +1407,11 @@ Wire Wire Line
 >>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
 =======
 	6800 6000 6800 6300
+<<<<<<< HEAD
 >>>>>>> 61a0daad72d5b17c6fbf31be0463f16e1147453a
+=======
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
+>>>>>>> 1e90bc99a875d9ca41e8b7a7efa8e89ac9bf0aeb
 Wire Wire Line
 	6800 6100 6900 6100
 Wire Wire Line
@@ -1535,5 +1571,9 @@ Wire Wire Line
 >>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
 =======
 	2100 3700 3000 3700
+<<<<<<< HEAD
 >>>>>>> 61a0daad72d5b17c6fbf31be0463f16e1147453a
+=======
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
+>>>>>>> 1e90bc99a875d9ca41e8b7a7efa8e89ac9bf0aeb
 $EndSCHEMATC

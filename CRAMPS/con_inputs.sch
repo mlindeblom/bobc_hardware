@@ -70,7 +70,11 @@ Date "23 may 2014"
 >>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
 =======
 Date "25 may 2014"
+<<<<<<< HEAD
 >>>>>>> 61a0daad72d5b17c6fbf31be0463f16e1147453a
+=======
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
+>>>>>>> 1e90bc99a875d9ca41e8b7a7efa8e89ac9bf0aeb
 Rev "v2.2"
 >>>>>>> 8ba487aad506868564870d32947b4e914086f93d
 Comp ""
